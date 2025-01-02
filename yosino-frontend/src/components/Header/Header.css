@@ -1,0 +1,27 @@
+header {
+	width: 100vw;
+	height: 70px;
+	background: green;
+	margin-bottom: 50px;
+}
+
+.header__container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin-right: 25px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+li .active {
+	width: 100px;
+}
