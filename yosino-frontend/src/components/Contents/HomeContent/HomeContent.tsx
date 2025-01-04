@@ -1,10 +1,12 @@
 import "./HomeContent.css"
+import animalsImage from "../../../assets/animals.jpg"
+
 const HomeContent = () => {
 	return (
 		<>
-			<div className='content'>
-				<div className='content__container container'>
-					<div className='content__title'>
+			<div className='home-content'>
+				<div className='home-content__container container'>
+					<div className='home-content__title'>
 						<h1>
 							Я ебу собак! Всегда готов <br />
 							Сразу трахнуть несколько котов <br />
@@ -17,11 +19,8 @@ const HomeContent = () => {
 							@Коньстанстин
 						</h1>
 					</div>
-					<div className='content__image'>
-						<img
-							src='https://www.theinsuranceemporium.co.uk/blog/wp-content/uploads/2024/09/shutterstock_2432338827.jpg'
-							alt='cutie animals'
-						/>
+					<div className='home-content__image'>
+						<img src={animalsImage} alt='cutie animals' />
 					</div>
 				</div>
 			</div>

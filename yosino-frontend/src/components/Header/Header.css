@@ -20,6 +20,7 @@ li {
 	margin-right: 25px;
 	font-size: 20px;
 	font-weight: 600;
+	user-select: none;
 }
 
 li .active {

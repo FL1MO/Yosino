@@ -1,14 +1,14 @@
+import "./AboutContent.css"
+
 const AboutContent = () => {
 	return (
-		<>
-			<div className='content'>
-				<div className='content__container container'>
-					<div className='content__title'>
-						<h1>Привеееет</h1>
-					</div>
+		<div className='about-content'>
+			<div className='about-content__container container'>
+				<div className='about-content__title'>
+					<h1>Ждём пока рисовый мальчик доучится...</h1>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }
 

@@ -1,17 +1,17 @@
-.content {
+.home-content {
 	width: 100%;
 }
-.content__container {
+.home-content__container {
 	justify-content: space-between;
 }
 
-.content__title {
-	width: 520px;
+.home-content__title {
+	width: 590px;
 }
-.content__image {
+.home-content__image {
 	overflow: hidden;
 }
-.content__image > img {
+.home-content__image > img {
 	/* position: relative;
 	bottom: 10px; */
 	height: 400px;

@@ -16,6 +16,10 @@ body {
 
 .container {
 	margin: 0 auto;
-	width: 1210px;
+	max-width: 1210px;
 	display: flex;
+}
+
+a {
+	user-select: none;
 }

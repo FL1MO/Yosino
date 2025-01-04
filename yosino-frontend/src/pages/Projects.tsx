@@ -1,7 +1,9 @@
+import ProjectsContent from "../components/Contents/ProjectsContent/ProjectsContent"
+
 const Projects = () => {
 	return (
 		<>
-			<h1>Projects</h1>
+			<ProjectsContent />
 		</>
 	)
 }
